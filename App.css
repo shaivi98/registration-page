@@ -1,58 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Jura:400');
 * { font-family: Jura, Arial; font-weight: 400; }
-body { margin: 0; padding: 0; }
+body {margin:0; padding: 0; }
 h1{margin: 0; }
-
 form {
   grid-column: 2;
   grid-row: 2;
   display: grid;
   grid-gap: 10px;
   margin: auto 0;
+  margin-top: 50px ;
   width:250px;
   padding: 20px;
   border-radius: 10px;
+  background: rgb(21, 95, 145);
   box-shadow: 0 32px 64px rgba(0,0,0,0.2);
      }
-  h1 {
-    margin-bottom: 5px;
-    text-align: center;
-    text-shadow: 0 4px 16px #fff;
-    font-size: 30px;
-    font-weight: 100;
-    }
-  fieldset {
-    margin: 0;
-    background-color: #fff;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    }
   label {
-    text-align: left;
-    padding-bottom: 2px;
-    padding-right: 20px;
+  text-align: left;
+  font-size: 18px;
+  padding-bottom: 2px;
+  padding-right: 20px;
     }
   input {
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    }
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  }
   button {
-    padding: 10px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    width:150px;
-    border:1px solid rgba(0,0,0,0);
-    border-radius: 5px;
-    background: rgb(235, 87, 185);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    }
-@media only screen and (min-width: 420px) {
-
-}
-
+      padding: 10px;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+      width:150px;
+      border:1px solid rgba(0,0,0,0);
+      border-radius: 5px;
+      background: rgb(85, 80, 83);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  }
 .App {
   text-align: center;
 }
@@ -68,6 +52,17 @@ form {
   }
 }
 
+.App {
+  text-align: center;
+  float:center;
+  margin-right:40%;
+  margin-left:30%;
+  margin-top: 5%;
+}
+.container {
+  margin-top:0 ;
+  margin-left:120px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
